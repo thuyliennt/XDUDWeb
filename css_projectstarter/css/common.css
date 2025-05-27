@@ -7,7 +7,7 @@ header{
     background-color: beige;
 }
 nav{
-    background-color: darkseagreen;
+    background-color: #000;
 
 }
 main{
@@ -15,7 +15,8 @@ main{
     font-size: 12pt;
 }
 footer{
-    background-color: darkgray;
+    background-color: #000;
+    color:#fff
 }
 nav ul{
     padding:0;
