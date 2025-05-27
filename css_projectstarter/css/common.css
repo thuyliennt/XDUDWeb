@@ -1,0 +1,33 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+header{
+    background-color: beige;
+}
+nav{
+    background-color: darkseagreen;
+}
+main{
+    background-color: cornsilk;
+    font-size: 12pt;
+}
+footer{
+    background-color: darkgray;
+}
+nav ul{
+    padding:0;
+}
+nav li{
+    display:inline-block;
+    width:200px;
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkcyan;
+}
+p{
+    line-height:18pt;
+}
