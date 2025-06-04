@@ -21,6 +21,19 @@ footer{
 nav ul{
     padding:0;
 }
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: yellow;
+    padding: 8px;
+    z-index: 100;
+  }
+  .skip-link:focus {
+    top: 0;
+  }
+  
 /* nav li{
     display:inline-block;
     line-height:30px;
@@ -54,7 +67,7 @@ nav a, footer a{
     /* grid-column-gap: 10%; */
     justify-content: space-around;
     align-items:center;
-    row-gap: 30px;
+    gap: 30px;
 }
 .grid img{
     width:100%;
